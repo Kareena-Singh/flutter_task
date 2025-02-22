@@ -4,7 +4,7 @@ import 'dart:convert';
 
 class ProductController extends GetxController {
   var products = [].obs;
-  var isLoading = true.obs;
+  var isLoading = false.obs;
 
   @override
   void onInit() {
